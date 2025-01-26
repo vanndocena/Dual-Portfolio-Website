@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Poppins:wght@400&display=swap" rel="stylesheet">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    </header>
+
+    <section id="home" class="home-section">
+        <div class="home-content">
+            <p>Hello! It's </p>
+            <p><span class="highlighted-name">JESSARELL GINGO & VANESSA DOCENA</span></p>
+                <p><span class="small-text"> a 3rd-year IT student at BISU-Balilihan Campus. Here, you'll find a collection of our projects. We hope you find them interesting!</span></p>
+        </div>
+
+        <div class="image">
+            <img src="Gingo.png" alt="Jessarell Gingo" class="home-image">
+            <img src="Docena.png" alt="Vanessa Docena" class="home-image">
+        </div>
+    </section>
+    
+    <section id="about" class="about-section">
+        <h2>ABOUT US</h2>
+            <!-- First person -->
+            <div class="about-item">
+                <div class="image">
+                    <img src="Gingo.png" alt="Jessarell Gingo" class="about-image">
+                </div>
+                <div class="about">
+                    <p>A person who always tries to improve. I am Jessarell Gingo, 21 years old from Magsija, Balilihan, Bohol. 
+                    Though IT is not my favorite field, I believe every challenge is a chance to grow. Working on group projects 
+                    taught me how to share ideas and work with others. I have learned how to solve problems and stay patient when things get hard.</p>
+                </div>
+            </div>
+    
+            <!-- Second person -->
+            <div class="about-item reverse">
+                <div class="image">
+                    <img src="Docena.png" alt="Vanessa B. Docena" class="about-image">
+                </div>
+                <div class="about">
+                    <p>Hello! I am Vanessa B. Docena, 21 years old. Currently living at Del Carmen Weste, Balilihan, Bohol. 
+                        I believe that strong teamwork, attention to detail, and adaptability are key to achieving success. 
+                        I am always open to learning new tools and skills, and when changes occur, I quickly adjust and find 
+                        the best way to tackle new challenges.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>    
+
+    <section id="projects">
+        <h2>PROJECTS</h2>
+        <div class="projects-container">
+            <h3>Gingo's Projects</h3>
+            <div class="project-grid">
+                <div class="project">
+                    <img src="AnimationInSketchUp.jpg" alt="Gingo Project 1">
+                    <h4>Dreamhouse SketchUp</h4>
+                    <p>A modern residential building is acontemporary, well-designed homes with stylish features. It is simple yet ideal for comfortable
+                        living. The building showcase modern design and prioritize clean lines and functionality.</p>
+                </div>
+                <div class="project">
+                    <img src="ChessTournament.jpeg" alt="Gingo Project 2">
+                    <h4>Chess Tournament</h4>
+                    <p>The image is a poster advertising a Grandmaster Chess Tournament. The poster states that the tournament 
+                        will be held on Saturday, April 13, 2024, at 2:30 PM at the Magsija Covered Court. The prize for the tournament 
+                        is P10,000.00.</p>
+                </div>
+                <div class="project">
+                    <img src="BusinessPermitSystem.png" alt="Gingo Project 3">
+                    <h4>Business Permit Management System</h4>
+                    <p>A digital tool that streamlines the process of applying for and managing business permits. It helps businesses submit applications easily, while enabling government agencies to process 
+                        and approve permits quickly, reducing paperwork and saving time.</p>
+                </div>
+            </div>
+            <br>
+            <h3>Docena's Projects</h3>
+            <div class="project-grid">
+                <div class="project">
+                    <img src="AnimationInSketchUp1.jpg" alt="Docena Project 1">
+                    <h4>Dreamhouse SketchUp</h4>
+                    <p>This Dreamhouse SketchUp model is a 3D design of a beautiful home that shows what your perfect house could look like. 
+                        The model includes all the key parts of a house, such as rooms, furniture, and outdoor spaces.</p>
+                </div>
+                <div class="project">
+                    <img src="VBallTournament.jpeg" alt="Docena Project 2">
+                    <h4>Sports in Our Community</h4>
+                    <p>This poster project will show how sports bring people together in our community. It will focus on how sports help people 
+                        stay healthy, make friends, and grow as individuals. The poster will feature different types of sports activities, from 
+                        youth teams to adult leagues, showing how everyone can be part of the action.</p>
+                </div>
+                <div class="project">
+                    <img src="LossandFound.jpeg" alt="Docena Project 3">
+                    <h4>Lost and Found App</h4>
+                    <p>The Lost and Found App is a user-friendly platform designed to help people track, report, and recover lost items, while 
+                        also helping others reunite with their belongings.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="contact-section">
+        <h2>CONTACT US</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" placeholder="Leave us message..." name="message" required></textarea>
+                <button type="submit">Send</button>
+        </form>
+    </section>
+</main>
+<footer>
+    <div class="social-links">
+        <a href="https://www.facebook.com/profile.php?id=100078027954570" target="_blank" rel="noopener noreferrer">Facebook</a>
+        <a href="https://www.instagram.com/_vanessuuugh?igsh=MXZjOXZnMHZmeTRvbw%3D%3D&utm_source=qr">Instagram</a>
+        <a href="http://t.me/jessarell">Telegram</a>
+    </div>
+    <p>&copy; 2025 Personal Portfolio. All rights reserved.</p>
+</footer>
+</body>
+</html>
